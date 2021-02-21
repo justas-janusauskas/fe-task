@@ -1,0 +1,8 @@
+@import '~/style/_variables';
+
+.list {
+  list-style: none;
+  border-top: 2px solid $grey-light;
+  padding: 0;
+  margin: 0;
+}

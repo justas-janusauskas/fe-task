@@ -1,0 +1,14 @@
+@import '~/style/_variables';
+
+.icon {
+  color: white;
+  font-weight: bold;
+  border-radius: 9px;
+  height: 38px;
+  width: 38px;
+  background-color: $grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
