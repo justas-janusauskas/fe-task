@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { Route, RouteProps, Redirect } from 'react-router-dom'
 
-import { Routes } from '~/constants/common'
+import { Routes } from '../constants/common'
 
 const PrivateRoute: FC<RouteProps> = ({
   path,

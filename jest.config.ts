@@ -10,6 +10,9 @@ const config: Config.InitialOptions = {
       isolatedModules: true,
     },
   },
+  "moduleNameMapper": {
+    "^.+\\.(css|less|scss)$": "identity-obj-proxy"
+  },
 };
 
 export default config;

@@ -2,7 +2,7 @@ import { FC, useEffect, useState } from 'react'
 import { Route, Redirect, Switch } from "react-router-dom"
 import { useSelector, useDispatch } from 'react-redux'
 
-import { useUserContext } from '../UserContext'
+import { useUserContext } from '../../hocs/UserContext'
 import useItemsProvider from './useItemsProvider'
 
 import {Routes} from '~/constants/common'

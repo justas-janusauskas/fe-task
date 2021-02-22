@@ -3,10 +3,10 @@ import {BrowserRouter as Router, Redirect, Switch} from 'react-router-dom'
 
 import Login from './components/Login/Login'
 import PasswordHealth from './components/PasswordHealth/PasswordHealth'
-import PrivateRoute from './components/PrivateRoute'
-import PublicRoute from './components/PublicRoute'
+import PrivateRoute from './hocs/PrivateRoute'
+import PublicRoute from './hocs/PublicRoute'
 import {Routes} from './constants/common'
-import { UserContextProvider } from './components/UserContext'
+import { UserContextProvider } from './hocs/UserContext'
 
 import './style/styles.scss'
 
