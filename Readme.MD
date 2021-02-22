@@ -7,6 +7,7 @@ While I did try my best to fix all the issues I found and fullfill as much of th
 * CSS - I did not spend too much time on it, except fixing some obvious issues and creating CSS modules for importing component-specific classes. However, I do not have problems working with CSS and, if needed, I would gladly do some more CSS-oriented task, showcasing my abilities
 * Tests - I did add some tests, on some utils functions and on some React components, however, if this was a real task and I had more time, I would also add tests for API functions and for Router HOCs
 * TSLint - I tried to organize the code as much as I could. However, in different projects there can be different levels of TSLint/ESLint rules and it would be no problem to follow much stricter formatting rules, if needed
+* API call function - could be using some kind of custom function for making API calls, instead of simple fetch(), however, in this small project I didn't feel it was needed too much
 
 ## Setup
 
